@@ -682,17 +682,6 @@ footer .footer_logo {
         padding: 10px 20px;
     }
 
-
-    .drown_heading {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .drown_para {
-        font-size: 14px;
-        line-height: 18px;
-    }
-
     .mob_logo {
         width: 4vw;
     }
@@ -711,6 +700,10 @@ footer .footer_logo {
         font-size: 10px;
         line-height: 14px;
         padding: 5px 10px;
+    }
+
+    .drown_info {
+        display: none;
     }
 
 }
@@ -740,7 +733,6 @@ footer .footer_logo {
         width: 130px;
         height: auto;
     }
-
     .ai_brain .mob_img,
     .main_slide,
     .slide1,
@@ -751,5 +743,9 @@ footer .footer_logo {
 
     .universal_header {
         row-gap: 5px;
+    }
+
+    footer .footer_logo {
+        max-width: 60px;
     }
 }
