@@ -179,6 +179,7 @@ header .nav-link:hover {
 .ai_brain {
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .mobile_wrapper {
