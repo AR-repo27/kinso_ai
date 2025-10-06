@@ -660,9 +660,6 @@ footer .footer_logo {
         line-height: 30px;
     }
 
-
-
-
     .primary_btn {
         font-size: 12px;
         line-height: 16px;
@@ -683,5 +680,76 @@ footer .footer_logo {
         font-size: 16px;
         line-height: 26px;
         padding: 10px 20px;
+    }
+
+
+    .drown_heading {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .drown_para {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mob_logo {
+        width: 4vw;
+    }
+
+    .main_slide .hello_text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .main_slide .welcome_text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .main_slide .primary_btn {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 5px 10px;
+    }
+
+}
+
+@media only screen and (max-width:440px) {
+    .font_56 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .font_48 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .font_24 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .font_18 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ai_brain .mobile_animation {
+        width: 130px;
+        height: auto;
+    }
+
+    .ai_brain .mob_img,
+    .main_slide,
+    .slide1,
+    .slide2,
+    .slide3 {
+        width: 130px;
+    }
+
+    .universal_header {
+        row-gap: 5px;
     }
 }
